@@ -45,8 +45,7 @@ public class TravelPlanner1 {
         int time = input.nextInt();
         if (time >0) {
             System.out.println("That means that when it is midnight at home it will be " + time + ":00 in your travel destination " + "and when it is noon at home it will be " + (12+time)%24+ ":00");
-        }
-            else {   
+        } else {   
             System.out.println("That means that when it is midnight at home it will be " + (24+time) + ":00 in your travel destination and when it is noon at home it will be " + (12+time)+ ":00" );
         }
         System.out.println("************\n");
